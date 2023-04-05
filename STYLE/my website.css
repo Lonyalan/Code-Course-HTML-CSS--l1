@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Montserrat:ital,wght@0,100;0,400;1,100&family=Ranga&display=swap');
+
+.head {
+    text-align: center;
+    font-family: verdana;
+}
+.navbar {
+    display: flex;
+    background-color: black;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    color: white;
+    font-size: 14px;
+    padding: 5px
+    
+    ;
+}
+a {
+    text-decoration: none;
+    color: white;
+    ;
+}
