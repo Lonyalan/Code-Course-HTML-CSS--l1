@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Montserrat:ital,wght@0,100;0,400;1,100&family=Ranga&display=swap');
+
+
+
+.img {
+    float: left;
+    width: 20%;
+    margin: 10px;
+}
+.card {
+    border: 1px solid red;
+    width: 400px;
+    border-radius: 10%;
+    overflow: hidden;
+
+}
+.head {
+    display: flex;
+    height: 60px;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    background-color: red;
+    font-size: 15px;
+    ;
+}
+h3 {
+    margin: 10px;
+}
+.close {
+    border: 1px solid white;
+    width: 20px;
+    text-align: center;
+    background-color: white;
+    color :red;
+    border-radius: 100%;
+    ;
+}
+.body {
+    background-color: rgb(255, 254, 254);
+    padding: 1px;
+    text-align: justify;
+    font-size: 12px
+  }
+.foot {
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid red;
+    background-color: white;
+    
+    ;
+}
+.btn {
+    background-color: red;
+    color: white;
+    width: 100px;
+    height: 30px;
+    padding: 0px;
+    border:none ;
+    border-radius: 5px;
+    margin: 10px;
+    font-family: verdana;
+    text-align: center;
+    cursor: pointer;
+    font-size: 12px;
+    
+
+}
+.btnannuler {
+    background-color: rgb(255, 255, 255);
+    color: rgb(254, 0, 0);
+    width: 100px;
+    height: 30px;
+    padding: 0px;
+    border:1px solid red;
+    border-radius: 5px;
+    margin: 10px;
+    font-family: verdana;
+    text-align: center;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+body {
+    min-height: 100vh;
+    margin: 10px;
+    background-color:grey;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: verdana;
+    font-size: 14px;
+    
+}
