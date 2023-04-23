@@ -1,48 +1,81 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Montserrat:ital,wght@0,100;0,400;1,100&family=Ranga&display=swap');
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-   
+* {
+	box-sizing: border-box;
 }
+
 body {
-    background-color: rgb(63, 63, 64);
-    height: 100vh;
-    border-radius: 100px;
-    ;
-    
+	margin: 0;
+	background-color: #9a9a9a;
 }
 
-.container {
-    display: flex;
-    flex-direction:row;;
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-    
-    
+header {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #ffffff;
+	padding: 24px;
+	gap: 12px;
 }
 
-thead {
-    background-color: rgb(10, 141, 248);
-    border-radius: 10px 10px 0 0;
-    
-    
+header span {
+	height: 2px;
+	width: 60px;
+	background-color: #888888;
 }
 
-tbody tr:nth-child(even) {
-    background-color: rgb(214, 174, 174);
+
+header div {
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	background-color: #888888;
 }
 
-table {
-    background-color: rgb(252, 253, 253);
-    width: 70%;
-    height: 20%;
-    text-align: center;
-    border-collapse: collapse;
-    
-    ;
-    ;
+nav {
+	width: 250px;
+	background-color: #3c1247;
+	position: fixed;
+	top: 60px;
+	height: calc(100vh - 60px);
+}
+
+main {
+	position: absolute;
+	top: 60px;
+	left: 250px;
+	width: calc(100vw - 250px);
+	height: calc(100vh - 60px);
+}
+
+main .container {
+	padding: 24px;
+	display: flex;
+	flex-wrap: wrap;
+	height: 100%;
+}
+
+.section {
+	padding: 12px;
+}
+
+.section>* {
+	background-color: #ffffff;
+	height: 100%;
+
+}
+
+.one,
+.four {
+	width: 35%;
+}
+
+.two,
+.three {
+	width: 65%;
 }
